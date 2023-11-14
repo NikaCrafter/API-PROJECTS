@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: orange;
+}
+
+#joke-container {
+    width: 50%;
+    height: 50%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #131419;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color:grey;
+    font-weight: bold;
+}
+
+.card {
+    width: 80%;
+    text-align: center;
+    background-color: #131419;
+}
+
+#newJokeButton {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+h1 {
+  color:red;
+}
